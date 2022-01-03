@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p {
+            color: red;
+        }
+        div > div {
+            background: plum;
+        }
+        .es {
+            background: red;
+        }
+        div + section {
+            background: yellowgreen;
+        }
+        div ~ p {
+            color: powderblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <p>Plexes</p>
+            <div class="es">ES</div>
+        </div>
+    </div>
+    <p>Clase de selectores 1</p>
+    <p>Clase de selectores 2</p>
+    
+    <div>
+        Master
+    </div>
+    <section>
+        Es lo mejor
+    </section>
+</body>
+</html>
